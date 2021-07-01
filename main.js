@@ -111,20 +111,20 @@
 // console.log(color);
 // console.log(newObj);
 
-let obj = {
-    name: "Kani",
-    age:22,
-    position: [
-        'Mentor',
-        'Backend-developer',
-        'Frontend-developer',
-        'Bloger'
-    ],
-    dog: {
-        name: 'Oreo',
-        age: 2
-    }
-}
+// let obj = {
+//     name: "Kani",
+//     age:22,
+//     position: [
+//         'Mentor',
+//         'Backend-developer',
+//         'Frontend-developer',
+//         'Bloger'
+//     ],
+//     dog: {
+//         name: 'Oreo',
+//         age: 2
+//     }
+// }
 
 
 // let {
@@ -143,12 +143,13 @@ let obj = {
 
 // console.log(name, age,firstPos,secondPos,otherPos,dogName,dogAge);
 
-function sayHello({name,age,dog:{name: dogName}}){
-    console.log(`
-        Hello my name is ${name}
-        I am ${age} y.o.
-        I have a dog ${dogName}
-    `);
-}
+// function sayHello({name,age,dog:{name: dogName}}){
+//     console.log(`
+//         Hello my name is ${name}
+//         I am ${age} y.o.
+//         I have a dog ${dogName}
+//     `);
+// }
 
-sayHello(obj)
+// sayHello(obj)
+
